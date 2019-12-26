@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		243471E323AE0ED8000A5FC3 /* FCScrollViewBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 243471E223AE0ED8000A5FC3 /* FCScrollViewBaseVC.m */; };
+		247B90C123B1B210003312AE /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 247B90C023B1B210003312AE /* test.html */; };
+		247B9A6E23B1FC88003312AE /* FCViewTintColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 247B9A6D23B1FC88003312AE /* FCViewTintColorVC.m */; };
+		247B9A7123B20BF8003312AE /* FCViewTintColorVC.html in Resources */ = {isa = PBXBuildFile; fileRef = 247B9A7023B20BF8003312AE /* FCViewTintColorVC.html */; };
 		24C2B38523ADAB2E0093E4F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2B38423ADAB2E0093E4F5 /* AppDelegate.m */; };
 		24C2B38823ADAB2E0093E4F5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2B38723ADAB2E0093E4F5 /* SceneDelegate.m */; };
 		24C2B38B23ADAB2E0093E4F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2B38A23ADAB2E0093E4F5 /* ViewController.m */; };
@@ -16,11 +19,17 @@
 		24C2B39623ADAB2F0093E4F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2B39523ADAB2F0093E4F5 /* main.m */; };
 		24C2B3BE23ADAC970093E4F5 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2B3BD23ADAC970093E4F5 /* TableViewCell.m */; };
 		24C2B3C423ADAE650093E4F5 /* FCSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2B3C323ADAE650093E4F5 /* FCSectionModel.m */; };
+		24E0C3A923B0AEFB00E3E769 /* FCViewBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E0C3A823B0AEFB00E3E769 /* FCViewBaseVC.m */; };
+		24E0C3AE23B0B9ED00E3E769 /* FCLayerBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E0C3AD23B0B9ED00E3E769 /* FCLayerBaseVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		243471E123AE0ED8000A5FC3 /* FCScrollViewBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCScrollViewBaseVC.h; sourceTree = "<group>"; };
 		243471E223AE0ED8000A5FC3 /* FCScrollViewBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCScrollViewBaseVC.m; sourceTree = "<group>"; };
+		247B90C023B1B210003312AE /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		247B9A6C23B1FC88003312AE /* FCViewTintColorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewTintColorVC.h; sourceTree = "<group>"; };
+		247B9A6D23B1FC88003312AE /* FCViewTintColorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewTintColorVC.m; sourceTree = "<group>"; };
+		247B9A7023B20BF8003312AE /* FCViewTintColorVC.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = FCViewTintColorVC.html; sourceTree = "<group>"; };
 		24C2B38023ADAB2E0093E4F5 /* FCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C2B38323ADAB2E0093E4F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24C2B38423ADAB2E0093E4F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +46,10 @@
 		24C2B3C223ADAE650093E4F5 /* FCSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSectionModel.h; sourceTree = "<group>"; };
 		24C2B3C323ADAE650093E4F5 /* FCSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSectionModel.m; sourceTree = "<group>"; };
 		24C2B3C823ADAEF50093E4F5 /* FCProjectPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCProjectPrefixHeader.pch; sourceTree = "<group>"; };
+		24E0C3A723B0AEFB00E3E769 /* FCViewBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewBaseVC.h; sourceTree = "<group>"; };
+		24E0C3A823B0AEFB00E3E769 /* FCViewBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewBaseVC.m; sourceTree = "<group>"; };
+		24E0C3AC23B0B9ED00E3E769 /* FCLayerBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCLayerBaseVC.h; sourceTree = "<group>"; };
+		24E0C3AD23B0B9ED00E3E769 /* FCLayerBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCLayerBaseVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		247B9A6F23B20BE0003312AE /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				247B9A7023B20BF8003312AE /* FCViewTintColorVC.html */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
 		24C2B37723ADAB2E0093E4F5 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +107,9 @@
 		24C2B38223ADAB2E0093E4F5 /* FCProject */ = {
 			isa = PBXGroup;
 			children = (
+				247B90C023B1B210003312AE /* test.html */,
+				24E0C3AA23B0B9B300E3E769 /* CALayer */,
+				24E0C3A323B0AD6F00E3E769 /* UIView */,
 				243471DF23AE0E79000A5FC3 /* UIScrollView */,
 				24C2B3C123ADADF30093E4F5 /* Controller */,
 				24C2B3C023ADADEC0093E4F5 /* Model */,
@@ -126,6 +150,59 @@
 			children = (
 				24C2B38923ADAB2E0093E4F5 /* ViewController.h */,
 				24C2B38A23ADAB2E0093E4F5 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24E0C3A323B0AD6F00E3E769 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				247B9A6F23B20BE0003312AE /* HTML */,
+				24E0C3A623B0ADD200E3E769 /* Model */,
+				24E0C3A523B0ADB600E3E769 /* View */,
+				24E0C3A423B0AD7F00E3E769 /* Controller */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		24E0C3A423B0AD7F00E3E769 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24E0C3A723B0AEFB00E3E769 /* FCViewBaseVC.h */,
+				24E0C3A823B0AEFB00E3E769 /* FCViewBaseVC.m */,
+				247B9A6C23B1FC88003312AE /* FCViewTintColorVC.h */,
+				247B9A6D23B1FC88003312AE /* FCViewTintColorVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24E0C3A523B0ADB600E3E769 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24E0C3A623B0ADD200E3E769 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24E0C3AA23B0B9B300E3E769 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				24E0C3AB23B0B9C500E3E769 /* Controller */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		24E0C3AB23B0B9C500E3E769 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24E0C3AC23B0B9ED00E3E769 /* FCLayerBaseVC.h */,
+				24E0C3AD23B0B9ED00E3E769 /* FCLayerBaseVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,8 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247B9A7123B20BF8003312AE /* FCViewTintColorVC.html in Resources */,
 				24C2B39323ADAB2F0093E4F5 /* LaunchScreen.storyboard in Resources */,
 				24C2B39023ADAB2F0093E4F5 /* Assets.xcassets in Resources */,
+				247B90C123B1B210003312AE /* test.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C2B3C423ADAE650093E4F5 /* FCSectionModel.m in Sources */,
+				24E0C3A923B0AEFB00E3E769 /* FCViewBaseVC.m in Sources */,
 				24C2B38B23ADAB2E0093E4F5 /* ViewController.m in Sources */,
+				247B9A6E23B1FC88003312AE /* FCViewTintColorVC.m in Sources */,
+				24E0C3AE23B0B9ED00E3E769 /* FCLayerBaseVC.m in Sources */,
 				24C2B38523ADAB2E0093E4F5 /* AppDelegate.m in Sources */,
 				24C2B39623ADAB2F0093E4F5 /* main.m in Sources */,
 				24C2B3BE23ADAC970093E4F5 /* TableViewCell.m in Sources */,

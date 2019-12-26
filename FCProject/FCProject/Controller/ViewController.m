@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <objc/runtime.h>
 //Model
 #import "FCSectionModel.h"
 //View
 #import "TableViewCell.h"
 //Controller
 #import "FCScrollViewBaseVC.h"
+#import "FCViewTintColorVC.h"
 
 @interface ViewController ()
 
@@ -39,7 +41,6 @@
     //
     [self.tableView registerClass:TableViewCell.class forCellReuseIdentifier:NSStringFromClass(TableViewCell.class)];
     [self.tableView registerClass:UITableViewHeaderFooterView.class forHeaderFooterViewReuseIdentifier:NSStringFromClass(UITableViewHeaderFooterView.class)];
-    
     
 }
 
@@ -89,6 +90,23 @@
         [self.navigationController pushViewController:self.mArr[indexPath.section].cells[indexPath.row].classVC.new animated:YES];
     }
 }
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section{
+    unsigned int *num = malloc(sizeof(unsigned int));
+    Ivar *ivarP = class_copyIvarList(tableView.class, num);
+    NSLog(@"------");
+    for (int t = 0; t < *num; t++) {
+        Ivar ivar = *(ivarP + t);
+        const char *type = ivar_getTypeEncoding(ivar);
+        const char *name = ivar_getName(ivar);
+        NSLog(@"%s:%s\n",name,type);
+
+    }
+    //
+    UIView *indexView = [tableView valueForKey:@"index"];
+    if (indexView) {
+        indexView.backgroundColor = [UIColor colorWithRed:0.4 green:0.1 blue:0.9 alpha:0.5];
+    }
+}
 
 
 
@@ -112,9 +130,13 @@
         
         FCCellModel *cellM1_1 = FCCellModel.new;
         cellM1_1.title = @"基本属性和方法";
-        cellM1_1.classVC = FCScrollViewBaseVC.class;
-        
+        cellM1_1.classVC = FCScrollViewBaseVC.class;//
         [sectionM1.cells addObject:cellM1_1];
+        
+        FCCellModel *cellM1_2 = FCCellModel.new;
+        cellM1_2.title = @"UIView的TintColor";
+        cellM1_2.classVC = FCViewTintColorVC.class;//
+        [sectionM1.cells addObject:cellM1_2];
         
     }
     return _mArr;

@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+code{
+    background-color: beige;
+    border: solid 1px #AAA;
+    padding: 2px;
+    font-weight: bolder;
+}
+.class{
+    color: #D0A7FE;
+}
+.property{
+    color: #32788E;
+}
+.systemDefinition{
+    color: red;
+}
+p{
+    text-indent: 2em;
+    color: #333333;
+}
+i,em{
+    font-style: normal;
+    font-weight: bolder;
+    color: red;
+}
